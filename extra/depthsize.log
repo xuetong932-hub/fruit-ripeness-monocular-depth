@@ -1,0 +1,831 @@
+﻿depthsize: 1000 images
+ fruit   label 
+banana  ripe      100
+        unripe    100
+durian  ripe      100
+        unripe    100
+guava   ripe      100
+        unripe    100
+mango   ripe      100
+        unripe    100
+papaya  ripe      100
+        unripe    100
+python : 
+At line:1 char:302
++ ... tch {} } }; python extra_experiments.py depthsize --jobs 6 *> outputs ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/287 [00:00<?, ?it/s]
+Loading weights:  14%|█▎        | 39/287 [00:00<00:00, 354.13it/s]
+Loading weights:  34%|███▍      | 97/287 [00:00<00:00, 481.58it/s]
+Loading weights: 100%|██████████| 287/287 [00:00<00:00, 1008.20it/s]
+Small: 0/1000 images, 1 s on cuda
+Small: 100/1000 images, 47 s on cuda
+Small: 200/1000 images, 118 s on cuda
+Small: 300/1000 images, 227 s on cuda
+Small: 400/1000 images, 332 s on cuda
+Small: 500/1000 images, 399 s on cuda
+Small: 600/1000 images, 446 s on cuda
+Small: 700/1000 images, 507 s on cuda
+Small: 800/1000 images, 618 s on cuda
+Small: 900/1000 images, 742 s on cuda
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and
+ faster downloads.
+
+Loading weights:   0%|          | 0/287 [00:00<?, ?it/s]
+Loading weights:   8%|▊         | 23/287 [00:00<00:01, 216.17it/s]
+Loading weights:  23%|██▎       | 66/287 [00:00<00:00, 338.58it/s]
+Loading weights:  35%|███▌      | 101/287 [00:00<00:00, 263.16it/s]
+Loading weights: 100%|██████████| 287/287 [00:00<00:00, 703.22it/s]
+Base: 0/1000 images, 0 s on cuda
+Base: 100/1000 images, 92 s on cuda
+Base: 200/1000 images, 250 s on cuda
+Base: 300/1000 images, 506 s on cuda
+Base: 400/1000 images, 753 s on cuda
+Base: 500/1000 images, 905 s on cuda
+Base: 600/1000 images, 1012 s on cuda
+Base: 700/1000 images, 1203 s on cuda
+Base: 800/1000 images, 1472 s on cuda
+Base: 900/1000 images, 1773 s on cuda
+
+Loading weights:   0%|          | 0/503 [00:00<?, ?it/s]
+Loading weights:   5%|▍         | 25/503 [00:00<00:01, 245.45it/s]
+Loading weights:  10%|▉         | 50/503 [00:00<00:02, 199.53it/s]
+Loading weights:  15%|█▍        | 75/503 [00:00<00:01, 216.04it/s]
+Loading weights:  19%|█▉        | 98/503 [00:00<00:02, 154.66it/s]
+Loading weights:  23%|██▎       | 117/503 [00:00<00:02, 161.91it/s]
+Loading weights:  27%|██▋       | 135/503 [00:00<00:02, 165.57it/s]
+Loading weights:  30%|███       | 153/503 [00:01<00:02, 122.61it/s]
+Loading weights:  35%|███▌      | 178/503 [00:01<00:02, 143.56it/s]
+Loading weights:  40%|████      | 203/503 [00:01<00:01, 153.96it/s]
+Loading weights: 100%|██████████| 503/503 [00:01<00:00, 388.65it/s]
+Large: 0/1000 images, 3 s on cuda
+Large: 100/1000 images, 286 s on cuda
+Large: 200/1000 images, 764 s on cuda
+Large: 300/1000 images, 1511 s on cuda
+Large: 400/1000 images, 2113 s on cuda
+Large: 500/1000 images, 2572 s on cuda
+Large: 600/1000 images, 2885 s on cuda
+Large: 700/1000 images, 3368 s on cuda
+Large: 800/1000 images, 4120 s on cuda
+Large: 900/1000 images, 4846 s on cuda
+[Parallel(n_jobs=6)]: Using backend LokyBackend with 6 concurrent workers.
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+[Parallel(n_jobs=6)]: Done  29 tasks      | elapsed:   33.7s
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+[Parallel(n_jobs=6)]: Done 150 tasks      | elapsed:  1.0min
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+C:\Users\admin\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was dep
+recated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC
+(probability=True)`
+  warnings.warn(
+[Parallel(n_jobs=6)]: Done 350 out of 350 | elapsed:  1.7min finished
+model  fruit  iou_median  fallback  hf_depth_median  hf_grey_median  grey_to_depth  sec_per_image device
+Small    all      0.8917     0.021           0.0001          0.0727      1006.1763         0.8067   cuda
+Small banana      0.9521     0.090           0.0003          0.2475       820.3955         0.8067   cuda
+Small durian      0.6119     0.005           0.0007          0.1550       208.8583         0.8067   cuda
+Small  guava      0.8998     0.000           0.0000          0.0749      5315.1423         0.8067   cuda
+Small  mango      0.9811     0.000           0.0000          0.0360      4792.4709         0.8067   cuda
+Small papaya      0.5529     0.010           0.0000          0.0199      1777.0126         0.8067   cuda
+ Base    all      0.8975     0.018           0.0001          0.0727       847.8142         1.9389   cuda
+ Base banana      0.9581     0.075           0.0005          0.2475       519.8699         1.9389   cuda
+ Base durian      0.6430     0.005           0.0010          0.1550       153.0785         1.9389   cuda
+ Base  guava      0.9238     0.000           0.0000          0.0749      2873.4446         1.9389   cuda
+ Base  mango      0.9814     0.000           0.0000          0.0360      5341.5751         1.9389   cuda
+ Base papaya      0.5686     0.010           0.0000          0.0199      1873.8355         1.9389   cuda
+Large    all      0.9038     0.022           0.0001          0.0727       695.2725         5.3222   cuda
+Large banana      0.9610     0.100           0.0008          0.2475       297.5379         5.3222   cuda
+Large durian      0.6168     0.000           0.0012          0.1550       132.9125         5.3222   cuda
+Large  guava      0.9091     0.000           0.0000          0.0749      2267.4177         5.3222   cuda
+Large  mango      0.9819     0.000           0.0000          0.0360      4324.6417         5.3222   cuda
+Large papaya      0.5598     0.010           0.0000          0.0199      1602.4715         5.3222   cuda
+       features         model  f1_score_mean  f1_score_std
+             HC Random Forest         0.8571        0.0199
+             HC           SVM         0.8358        0.0220
+    mask (Base) Random Forest         0.8444        0.0235
+    mask (Base)           SVM         0.8443        0.0241
+   mask (Large) Random Forest         0.8553        0.0275
+   mask (Large)           SVM         0.8485        0.0246
+   mask (Small) Random Forest         0.8542        0.0265
+   mask (Small)           SVM         0.8401        0.0262
+ mask+3D (Base) Random Forest         0.8518        0.0231
+ mask+3D (Base)           SVM         0.8448        0.0267
+mask+3D (Large) Random Forest         0.8586        0.0272
+mask+3D (Large)           SVM         0.8450        0.0260
+mask+3D (Small) Random Forest         0.8522        0.0274
+mask+3D (Small)           SVM         0.8432        0.0219
+        model depth_model               a            b  diff_points  splits_a_better  p_corrected
+          SVM       Small mask+3D (Small) mask (Small)       0.3164               13       0.6677
+          SVM       Small    mask (Small)           HC       0.4261               14       0.7874
+          SVM       Small mask+3D (Small)           HC       0.7425               16       0.6186
+          SVM        Base  mask+3D (Base)  mask (Base)       0.0540               12       0.9490
+          SVM        Base     mask (Base)           HC       0.8470               14       0.5678
+          SVM        Base  mask+3D (Base)           HC       0.9010               16       0.5926
+          SVM       Large mask+3D (Large) mask (Large)      -0.3430               10       0.5948
+          SVM       Large    mask (Large)           HC       1.2653               16       0.4199
+          SVM       Large mask+3D (Large)           HC       0.9223               15       0.5738
+Random Forest       Small mask+3D (Small) mask (Small)      -0.1998               10       0.7704
+Random Forest       Small    mask (Small)           HC      -0.2853               11       0.7872
+Random Forest       Small mask+3D (Small)           HC      -0.4851                8       0.6627
+Random Forest        Base  mask+3D (Base)  mask (Base)       0.7398               16       0.3630
+Random Forest        Base     mask (Base)           HC      -1.2663                6       0.2196
+Random Forest        Base  mask+3D (Base)           HC      -0.5266               10       0.5816
+Random Forest       Large mask+3D (Large) mask (Large)       0.3383               16       0.6376
+Random Forest       Large    mask (Large)           HC      -0.1838               13       0.8816
+Random Forest       Large mask+3D (Large)           HC       0.1545               12       0.9116
+Done in 142.4 min

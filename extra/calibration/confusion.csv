@@ -1,0 +1,9 @@
+method,ripe_as_ripe,ripe_as_unripe,unripe_as_ripe,unripe_as_unripe
+ConvNeXt-Tiny,10575,643,984,9750
+EfficientNet-B0,10503,715,1078,9656
+YOLO26s-cls,10435,783,1234,9500
+DINOv2 | SVM,10153,1065,1209,9525
+EfficientNet-B0 RGB-D,10064,1154,1205,9529
+HC + depth mask | Random Forest,10033,1185,1498,9236
+HC | Random Forest,9883,1335,1394,9340
+HC + depth mask + 3D | Random Forest,9999,1219,1522,9212

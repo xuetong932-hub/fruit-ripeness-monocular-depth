@@ -1,0 +1,50 @@
+﻿python : [Parallel(n_jobs=6)]: Using backend LokyBackend with 6 concurrent workers.
+At line:1 char:302
++ ... tch {} } }; python extra_experiments.py depthfreq --jobs 6 *> outputs ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([Parallel(n_job...urrent workers.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[Parallel(n_jobs=6)]: Done 476 tasks      | elapsed:    5.5s
+[Parallel(n_jobs=6)]: Done 2412 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=6)]: Done 3000 out of 3000 | elapsed:  1.2min finished
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\Taylors\加分项\项目\研究\fruit-ripeness-detection-main\fruit-ripeness-detection-main\extra_expe
+riments.py", line 549, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\admin\Desktop\Taylors\加分项\项目\研究\fruit-ripeness-detection-main\fruit-ripeness-detection-main\extra_expe
+riments.py", line 544, in main
+    globals()[f"run_{args.experiment}"](args)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\Desktop\Taylors\加分项\项目\研究\fruit-ripeness-detection-main\fruit-ripeness-detection-main\extra_expe
+riments.py", line 425, in run_depthfreq
+    auc = roc_auc_score(s['y'], s[f'hf_{src}_s2'])
+  File "C:\Users\admin\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\admin\anaconda3\Lib\site-packages\sklearn\metrics\_ranking.py", line 710, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+  File "C:\Users\admin\anaconda3\Lib\site-packages\sklearn\utils\validation.py", line 1087, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\anaconda3\Lib\site-packages\sklearn\utils\validation.py", line 137, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\anaconda3\Lib\site-packages\sklearn\utils\validation.py", line 186, in _assert_all_finite_elemen
+t_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.

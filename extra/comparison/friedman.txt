@@ -1,0 +1,15 @@
+Friedman test over 25 (fold, fruit) blocks, 10 methods: chi2 = 82.02, p = 6.40e-14
+Nemenyi critical difference (alpha = 0.05): 2.709
+
+Average ranks (1 = best):
+method
+ConvNeXt-Tiny                           2.60
+YOLO26s-cls                             3.26
+EfficientNet-B0                         3.48
+EfficientNet-B0 RGB-D                   5.12
+DINOv2 | SVM                            5.32
+HC + depth mask | Random Forest         6.58
+HC + depth mask + 3D | Random Forest    6.88
+DINOv2 | Logistic Regression            7.22
+HC | Random Forest                      7.26
+HC | SVM                                7.28
