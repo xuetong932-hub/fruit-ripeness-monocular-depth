@@ -1,0 +1,25 @@
+{
+  "id": "xuetong111/fruit-ripeness-dl-convnext",
+  "title": "Fruit Ripeness DL convnext",
+  "code_file": "fruit-ripeness-dl-convnext.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "xuetong111/banana-ripeness-rgb",
+    "xuetong111/banana-ripeness-depth",
+    "xuetong111/durian-ripeness-rgb",
+    "xuetong111/durian-ripeness-depth",
+    "xuetong111/guava-ripeness-rgb",
+    "xuetong111/guava-ripeness-depth",
+    "xuetong111/mango-ripeness-rgb",
+    "xuetong111/mango-ripeness-depth",
+    "xuetong111/papaya-ripeness-rgb",
+    "xuetong111/papaya-ripeness-depth",
+    "xuetong111/fruit-ripeness-cv-folds"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

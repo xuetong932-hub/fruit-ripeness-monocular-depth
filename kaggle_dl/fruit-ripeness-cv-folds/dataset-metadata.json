@@ -1,0 +1,16 @@
+{
+  "title": "Fruit Ripeness Grouped CV Folds",
+  "id": "xuetong111/fruit-ripeness-cv-folds",
+  "subtitle": "Near-duplicate groups and 5-fold splits for the five-fruit ripeness data",
+  "description": "folds.csv: one row per image of the five fruit ripeness datasets, with its near-duplicate group (flip/rotation-invariant dHash, Hamming distance <= 6) and its stratified grouped 5-fold assignment (fold_all for the pooled data, fold_fruit per fruit). dl_baselines.py trains the deep-learning baselines on exactly these folds.",
+  "licenses": [
+    {
+      "name": "Attribution 4.0 International (CC BY 4.0)"
+    }
+  ],
+  "keywords": [
+    "agriculture",
+    "computer vision",
+    "classification"
+  ]
+}
