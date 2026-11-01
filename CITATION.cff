@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "Code and results for: Monocular Depth as a Foreground Cue, Not a Ripeness Cue"
+authors:
+  - family-names: Xue
+    given-names: Tong
+    affiliation: "School of Computer Science, Taylor's University"
+  - family-names: Li
+    given-names: Jie
+    affiliation: "School of Computer Science, Taylor's University"
+  - family-names: Wang
+    given-names: Yanhan
+    affiliation: "School of Computer Science, Taylor's University"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-01"
+preferred-citation:
+  type: article
+  title: "Monocular Depth as a Foreground Cue, Not a Ripeness Cue: A Leakage-Aware Study of Fruit Ripeness Classification"
+  authors:
+    - family-names: Xue
+      given-names: Tong
+    - family-names: Li
+      given-names: Jie
+    - family-names: Wang
+      given-names: Yanhan
+  journal: "IEEE Access"
+  year: 2026
+  notes: "Manuscript under review."

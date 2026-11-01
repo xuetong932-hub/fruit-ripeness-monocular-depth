@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Images and depth maps (download from Kaggle, see README)
+data_preparation/dataset/
+data_preparation/dataset_depth/
+downloads/
+
+# Large or regenerable outputs
+outputs/feature_cache/
+outputs/dl_cache/
+outputs/external/
+outputs/annotation/annotate.html
+outputs/**/*.npz
+!outputs/dl/sam/sam_masks.npz
+outputs/**/*.png
+outputs/**/*.pt
+outputs/**/*.pkl
+outputs/**/runs/
+*.log
+
+# Model weights downloaded at run time
+*.pt
+*.pth
+*.pkl
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
